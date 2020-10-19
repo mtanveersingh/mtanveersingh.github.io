@@ -78,7 +78,7 @@ button:focus {
     bottom: 15px;
     height: 35px;
     width: 35px;
-    background-color: #3648ff;
+    background-color: #197acf;
     display: none;
     z-index: 10000;
     border-radius: 3px;
@@ -131,7 +131,7 @@ button:focus {
 .vr_line {
     height: 34px;
     width: 3px;
-    background-color: #3648ff;
+    background-color: #197acf;
 }
 
 .bg-dark {
@@ -139,7 +139,7 @@ button:focus {
 }
 
 .bg-custom {
-    background-color: #3648ff;
+    background-color: #197acf;
 }
 
 .text-dark {
@@ -151,7 +151,7 @@ button:focus {
 }
 
 .text-custom {
-    color: #3648ff !important;
+    color: #197acf !important;
 }
 
 .h-100vh {
@@ -226,8 +226,8 @@ button:focus {
 }
 
 .btn-custom {
-    background-color: #3648ff;
-    border: 2px solid #3648ff;
+    background-color: #197acf;
+    border: 2px solid #197acf;
     color: #fff;
     transition: all 0.5s;
     border-radius: 5px;
@@ -315,7 +315,7 @@ button:focus {
     position: absolute;
     transition: all 0.5s;
     opacity: 0;
-    background: #3648ff;
+    background: #197acf;
 }
 
 .custom-nav.stickyadd .navbar-nav li.active a:after,
@@ -342,7 +342,7 @@ button:focus {
 .nav .open>a:focus,
 .nav .open>a:hover {
     background-color: transparent;
-    border-color: #3648ff;
+    border-color: #197acf;
 }
 
 .logo .logo-light {
@@ -407,7 +407,7 @@ button:focus {
 }
 
 .skill_home {
-    background: transparent linear-gradient(to right, rgba(255, 255, 255, 0), rgb(54, 72, 255), rgba(255, 255, 255, 0)) repeat scroll 0 0;
+    background: transparent linear-gradient(to right, rgba(255, 255, 255, 0), rgb(25, 122, 207), rgba(255, 255, 255, 0)) repeat scroll 0 0;
     position: relative;
     display: inline-block;
     padding: 5px 40px;
@@ -568,9 +568,9 @@ button:focus {
 .skill-custom .progress-bar {
     background: #6092d6;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3648ff, #6092d6);
+    background: -webkit-linear-gradient(to right, #197acf, #6092d6);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3648ff, #6092d6);
+    background: linear-gradient(to right, #197acf, #6092d6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -596,7 +596,7 @@ button:focus {
 }
 
 .hire-form .form-control:focus {
-    border-color: #3648ff;
+    border-color: #197acf;
 }
 
 .modal {
@@ -686,7 +686,7 @@ button:focus {
     content: "";
     height: 20px;
     box-shadow: 0 0 0 1px #e6e6e6;
-    background-color: #3648ff;
+    background-color: #197acf;
     position: absolute;
     left: -65px !important;
     width: 20px;
@@ -749,7 +749,7 @@ button:focus {
     content: "";
     height: 20px;
     box-shadow: 0 0 0 1px #e6e6e6;
-    background-color: #3648ff;
+    background-color: #197acf;
     position: absolute;
     right: -51px !important;
     width: 20px;
@@ -832,12 +832,12 @@ button:focus {
 }
 
 .work_menu li a.active {
-    background-color: #3648ff;
+    background-color: #197acf;
     color: #ffffff;
 }
 
 .work_menu li a:hover {
-    background-color: #3648ff;
+    background-color: #197acf;
     color: #ffffff !important;
 }
 
@@ -1065,7 +1065,7 @@ button:focus {
 }
 
 .blog_detail .blog_detail_badge {
-    background-color: #3648ff;
+    background-color: #197acf;
     border-radius: 30px;
     padding: 5px 12px;
     position: relative;
@@ -1077,7 +1077,7 @@ button:focus {
 .blog_divider {
     height: 24px;
     width: 2px;
-    background-color: #3648ff;
+    background-color: #197acf;
 }
 
 .blog_more {
@@ -1103,7 +1103,7 @@ button:focus {
 }
 
 .contact_form .form-control:focus {
-    border-color: #3648ff;
+    border-color: #197acf;
 }
 
 .contact_form textarea.form-control {
@@ -1148,7 +1148,7 @@ button:focus {
         color: #000;
     }
     .custom-nav .navbar-nav li.active a {
-        color: #3648ff;
+        color: #197acf;
     }
     .custom-nav>.container {
         width: 90%;
