@@ -1,6 +1,6 @@
 /*
 ------------------------------------------------------------------------
-* Template Name    : Dhrums - Responsive Bootstrap 4 Personal Template * 
+* Template Name    : Tan - Responsive Bootstrap 4 Personal Template * 
 * Author           : ThemesBoss                                        *
 * Version          : 1.0.0                                             *
 * Created          : October 2018                                      *
@@ -12,9 +12,9 @@
 ! function($) {
     "use strict";
 
-    var Dhrums = function() {};
+    var Tan = function() {};
 
-    Dhrums.prototype.initStickyAddMenu = function() {
+    Tan.prototype.initStickyAddMenu = function() {
         $(window).on('scroll',function() {
             var scroll = $(window).scrollTop();
 
@@ -26,7 +26,7 @@
         });
     },
 
-    Dhrums.prototype.initSmoothlyLink = function() {
+    Tan.prototype.initSmoothlyLink = function() {
         $('.nav-item a, .scroll_down a').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
@@ -36,19 +36,19 @@
         });
     },
 
-    Dhrums.prototype.initScrollActive = function() {
+    Tan.prototype.initScrollActive = function() {
         $("#navbarCollapse").scrollspy({
             offset: 70
         });
     },
 
-    Dhrums.prototype.initMouseParallax = function() {
+    Tan.prototype.initMouseParallax = function() {
         $( document ).mousemove( function( e ) {
             $( '.about-tween' ) .parallax( 70, e );
         });
     },
     
-    Dhrums.prototype.initCounter = function() {
+    Tan.prototype.initCounter = function() {
         var a = 0;
         $(window).on('scroll', function() {
             var oTop = $('#counter').offset().top - window.innerHeight;
@@ -78,7 +78,7 @@
         });
     },
 
-    Dhrums.prototype.initPortfolio = function() {
+    Tan.prototype.initPortfolio = function() {
         $(window).on('load', function() {
             var $container = $('.work-filter');
             var $filter = $('#menu-filter');
@@ -108,7 +108,7 @@
         });
     },
 
-    Dhrums.prototype.initMFPImg = function() {
+    Tan.prototype.initMFPImg = function() {
         $('.img-zoom').magnificPopup({
             type: 'image',
             closeOnContentClick: true,
@@ -121,7 +121,7 @@
         });
     },
 
-    Dhrums.prototype.initClientSlider = function() {
+    Tan.prototype.initClientSlider = function() {
         $("#owl-demo").owlCarousel({
             autoPlay: 10000,
             items: 3,
@@ -130,7 +130,7 @@
         });
     },
 
-    Dhrums.prototype.initPreLoader = function() {
+    Tan.prototype.initPreLoader = function() {
         var loader = $(".loader");
         var wHeight = $(window).height();
         var wWidth = $(window).width();
@@ -164,7 +164,7 @@
         }, 3500);
     },
 
-    Dhrums.prototype.initBackToTop = function() {
+    Tan.prototype.initBackToTop = function() {
         $(window).on('scroll',function(){
             if ($(this).scrollTop() > 100) {
                 $('.back_top').fadeIn();
@@ -178,7 +178,7 @@
         });
     },
 
-    Dhrums.prototype.init = function() {
+    Tan.prototype.init = function() {
         this.initStickyAddMenu();
         this.initSmoothlyLink();
         this.initScrollActive();
@@ -191,13 +191,13 @@
         this.initBackToTop();
     },
     //init
-    $.Dhrums = new Dhrums, $.Dhrums.Constructor = Dhrums
+    $.Tan = new Tan, $.Tan.Constructor = Tan
 }(window.jQuery),
 
 //initializing
 function($) {
     "use strict";
-    $.Dhrums.init();
+    $.Tan.init();
 }(window.jQuery);
 
 
