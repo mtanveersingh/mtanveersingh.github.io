@@ -370,7 +370,7 @@ button:focus {
 ============================*/
 
 .home-bg-img {
-    background-image: url(../images/home-bg-2.jpg);
+    background-image: url(../images/bg-profile-tanveer.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -579,7 +579,7 @@ button:focus {
 ============================*/
 
 .bg-cta-img {
-    background-image: url('../images/bg-cta-img.jpg');
+    background-image: url('../images/bg-profile-tanveer.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
