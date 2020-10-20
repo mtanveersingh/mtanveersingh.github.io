@@ -370,7 +370,7 @@ button:focus {
 ============================*/
 
 .home-bg-img {
-    background-image: url(../images/bg-profile-tanveer.jpg);
+    background-image: url(../images/home-bg-2.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -579,7 +579,7 @@ button:focus {
 ============================*/
 
 .bg-cta-img {
-    background-image: url('../images/bg-profile-tanveer.jpg');
+    background-image: url('../images/bg-cta-img.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -759,7 +759,7 @@ button:focus {
 .cv_exp .cv_exp_box .cb_exp_detail {
     text-align: right;
     margin-left: 15px;
-    float: right;
+    float: left;
     border-radius: 0;
 }
 
@@ -988,7 +988,7 @@ button:focus {
 =============================*/
 
 .bg-client {
-    background-image: url('../images/bg-profile-tanveer.jpg');
+    background-image: url('../images/bg-client.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
