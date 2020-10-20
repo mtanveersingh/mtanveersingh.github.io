@@ -906,7 +906,7 @@ button:focus {
     overflow: hidden;
     position: absolute;
     font-size: 13px;
-    text-align: center;
+    text-align: right;
     top: 54px;
     z-index: 2;
     color: transparent;
