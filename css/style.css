@@ -740,7 +740,7 @@ button:focus {
 
 .cv_exp .cv_exp_box .cv_exp_year {
     position: relative;
-    margin: 0 0 10px 15px !important;
+    margin: 0 15px 10px 15px !important;
 }
 
 .cv_exp .cv_exp_box .cv_exp_year::after {
@@ -751,15 +751,15 @@ button:focus {
     box-shadow: 0 0 0 1px #e6e6e6;
     background-color: #197acf;
     position: absolute;
-    right: -51px !important;
+    right: -66px !important;
     width: 20px;
     z-index: 1;
 }
 
 .cv_exp .cv_exp_box .cb_exp_detail {
     text-align: right;
-    margin-left: 15px;
-    float: left;
+    margin-right: 15px;
+    float: right;
     border-radius: 0;
 }
 
