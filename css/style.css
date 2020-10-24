@@ -1041,7 +1041,7 @@ figcaption {
 }
 
 .skill_portfolio {
-    background: transparent linear-gradient(to right, rgba(255, 255, 255, 0), rgb(25, 122, 207), rgba(255, 255, 255, 0)) repeat scroll 0 0;
+    background: transparent linear-gradient(to right, rgba(255, 255, 255, 0), rgb(13, 62, 105), rgba(255, 255, 255, 0)) repeat scroll 0 0;
     position: relative;
     display: inline-block;
     padding: 5px 40px;
