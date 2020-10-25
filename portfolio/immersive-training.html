@@ -69,7 +69,10 @@
                         <a href="#overview" class="nav-link">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#analysis" class="nav-link">Design analysis</a>
+                        <a href="#needs" class="nav-link">Understanding Needs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#designing" class="nav-link">Designing Solutions</a>
                     </li>
                     <li class="nav-item">
                         <a href="#development" class="nav-link">Development</a>
@@ -144,7 +147,7 @@
                         use-case in future. Since WinGD is a leading developer of ship engines, they asked us to build a
                         prototype that lets the user explore the components of a ship-engine valve.
                     </p>
-                    <p class="text-muted mt-3 justify-content-around">They provided us with the following materials: 
+                    <p class="text-muted mt-3 justify-content-around">They provided us with the following materials:
                         <ul class="text-muted">
                             <li>A physical valve</li>
                             <li>A virtual model of the physical valve (.FBX)</li>
@@ -156,13 +159,13 @@
         </div>
     </section>
     <!-- End Overview -->
-    <!-- Start Analysis -->
-    <section class="section" id="analysis">
+    <!-- Start Understanding needs -->
+    <section class="section" id="needs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center">
-                        <h3><span class="font-weight-bold">Analysis Phase</span></h3>
+                        <h3><span class="font-weight-bold">Understanding Needs</span></h3>
                         <div class="vr_line mx-auto d-block"></div>
                         <!-- End About  <p class="sec_subtitle mx-auto text-muted pt-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
                     </div>
@@ -171,125 +174,91 @@
             <div class="row mt-5 vertical-content">
                 <div class="col-lg-6">
                     <div class="mt-3">
-                        <img src="../images/portfolio/immtrain/valve-cropped.png" height="500px" alt="personas images"
-                            class="mx-auto d-block position-relative">
+                        <img src="../images/portfolio/immtrain/valve-cropped.png" height="500px" width="auto"
+                            alt="Ship engine valve" class="mx-auto d-block position-relative">
                         <figcaption>The physical valve of a ship engine</figcaption>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about_content mt-3">
-                        <h4 class="mb-3">Goal</h4>
-                        <p class="text-muted mt-3 justify-content-around">After reading through the documents and understanding the procedure for the maintenance pf the valve.</p>
-                        <span data-toggle="counter-up"><strong>1. Mary Miller</strong> </span>
+                        <h4 class="mb-3">Defining Goals</h4>
+                        <p class="text-muted mt-3 justify-content-around">After reading through the documents and
+                            understanding the procedure surrounding the maintenance of the valve, we came up with three
+                            realistic goals. These goals will facilitate as checkpoints for the project and help us to
+                            segregate the system into 3 standalone working modules.</p>
+                        <span data-toggle="counter-up">1. Exploratory Training</span>
                         <ul class="text-muted">
-                            <li>Works full-time</li>
-                            <li>Sporty person but has a busy lifestyle</li>
-                            <li>Appreciates analog activities</li>
+                            <li>Learn about the physical model with the help of “augmented” elements</li>
                         </ul>
-                        <span data-toggle="counter-up"><strong>2. John Miller</strong> </span>
+                        <span data-toggle="counter-up">2. Disassembly & Assembly</span>
                         <ul class="text-muted">
-                            <li>Works full-time</li>
-                            <li>Often eats fast food</li>
-                            <li>Tech-savvy</li>
+                            <li>Follow step-by-step instructions to deconstruct the elements and reconstruct them</li>
                         </ul>
-                        <span data-toggle="counter-up"><strong>3. Bob Miller</strong> </span>
+                        <span data-toggle="counter-up">3. Interactive Maintenance</span>
                         <ul class="text-muted">
-                            <li>Humorous</li>
-                            <li>Likes arts and sports</li>
-                            <li>Fan of LEGO and Star Wars</li>
-                        </ul>
-                        <span data-toggle="counter-up"><strong>4. Alice Miller</strong> </span>
-                        <ul class="text-muted">
-                            <li>Interested in Math, Science, and Technology</li>
-                            <li>Eager to learn to code</li>
-                            <li>Plays football</li>
+                            <li>Get relevant information to check the status of valve parts & repair them</li>
                         </ul>
                     </div>
                     <br>
                 </div>
-                <div class="col-lg-8 subsection">
-                    <hr />
-                    <h4 class="mb-3">User Journey</h4>
-                    <p class="text-muted mt-3 justify-content-around">We sketched two scenarios representing the
-                        system process and the emotional impact that the system should eventually create. We
-                        realized it was necessary to define the system flow before diving into the development
-                        phase.
-                    </p>
-                </div>
                 <div class="col-lg-8">
-                    <h5 class="mb-3">Scenario 1: Reviewing last week's results and Setting new goals</h5><br>
-                    <i>Reviewing last week’s result </i>
-                    <p class="text-muted mt-3 justify-content-around">It’s a rainy Sunday afternoon. Family Miller
-                        has gathered in the living room to enjoy the
-                        last hours of the weekend together. They want to see if they reached the common goal
-                        they set last week: Were they as active as they wanted to be? The son, Bob, therefore
-                        starts the MAGSI system and the visualization of last week’s results is shown. The Millers
-                        proudly see that they actually reached their goal.
-                    </p><br>
-                    <i>Setting the weekly goal</i>
-                    <p class="text-muted mt-3 justify-content-around">The Millers have gathered around MAGSI and
-                        proudly reviewed their results from last week. They feel motivated to set a higher goal and
-                        be even more active in the upcoming week. Everybody decides about their individual
-                        contribution and finally, they can see how much they will have to do to reach their goal.
-                        Full of anticipation of reaching the next goal, they decide to take their pet dog Charlie
-                        out for a walk together.
-                    </p><br>
-                    <h5>Scenario 2: Being motivated during the week</h5>
-                    <p class="text-muted mt-3 justify-content-around">John Miller returns from work at 6 pm after a
-                        typical office day. He walks by MAGSI and is amazed to see that his children have made
-                        significant progress towards reaching the family activity goal. His son Bob runs towards him
-                        laughing, points at MAGSI and taunts his dad to take their dog Charlie for the evening walk.
-                        John smiles and gets the leash. Later he returns home and is happy to see that by his
-                        contribution, his family is one step closer to reaching their goal.
-                    </p>
-                </div>
-                <div class="col-lg-8 subsection">
-                    <hr />
-                    <h4>Storyboard</h4>
-                    <p class="text-muted mt-3 justify-content-around">Further, I designed some storyboards to
-                        visualize the process and to explain the potential system effectively to the stakeholders.
-                    </p><br>
-                    <div class="mt-3">
-                        <img src="../images/portfolio/magsi/magsi-storyboard.png"
-                            alt="storyboard sketched based on scenario"
-                            class="img-fluid mx-auto d-block position-relative">
-                        <figcaption>Storyboard for scenario 1</figcaption>
+                    <div class="about_content mt-3 subsection">
+                        <hr />
+                        <h4 class="mb-3">Defining Interactions</h4>
+                        <p class="text-muted mt-3 justify-content-around">Before diving into the specifics of the
+                            designing
+                            and implementation, it was important to understand what type of interactions fit well for
+                            such a
+                            use-case. The interactions were dependent on two specifics:</p>
+                        <span data-toggle="counter-up">1. Navigation - Which type is relevant for the use-case</span>
+                        <ul class="text-muted">
+                            <li>Physical egocentric navigation</li>
+                        </ul>
+                        <span data-toggle="counter-up">2. Manipulation - What all the user can do</span>
+                        <ul class="text-muted">
+                            <li>Selection</li>
+                            <li>Positioning</li>
+                            <li>Scaling</li>
+                            <li>Rotation</li>
+                        </ul>
                     </div>
-                </div><br>
+                </div>
                 <div class="col-lg-8 subsection">
                     <hr />
                     <h4>System Concept Statement</h4>
-                    <p class="text-muted mt-3 justify-content-around">Nowadays, career is the principal focus of
-                        one’s life which leads to a dormant lifestyle and reduces the time spent with their loved
-                        ones.
-                        <span class="font-weight-bold">Motivating Activity through Group-goal Setting Interface
-                            (MAGSI)</span>
-                        addresses this problem by providing a physical interaction for
-                        <span class="font-weight-bold">family members</span>
-                        . It helps to set
-                        <span class="font-weight-bold">family activity goals in a playful setting</span>
-                        by bringing everyone together in a common area (ex: Living Room) and deciding on what
-                        structure to assemble using tangible objects. The size of the structure they can build
-                        depends on the amount of activity each family member is willing to contribute. During the
-                        week, family activity completion can be visualized by the growth of the tangible structure.
-                        Each time a family member reaches a particular checkpoint, the system rewards them by
-                        ejecting a building block. This setting will
-                        <span class="font-weight-bold">increase the emotional bonding between family members by
-                            achieving goals together</span>
-                        .
+                    <p class="text-muted mt-3 justify-content-around"><span class="font-weight-bold">Immersive
+                            Training</span>
+                        is an augmented reality system
+                        which effectively realizes how the <span class="font-weight-bold">future of in-field
+                            assistance</span>
+                        during maintenance of the
+                        hardware would look like. The system is primarily aimed at helping the <span
+                            class="font-weight-bold">beginner training
+                            personnel</span> with their learning processes. Immersive Training also supports the
+                        learning of the
+                        hardware via interactive exploration of various elements. It has a support for <span
+                            class="font-weight-bold">speech
+                            recognition</span> so that the user can use it <span
+                            class="font-weight-bold">hands-free</span>. The
+                        system assists the user with audio as
+                        well as visual instructions by understanding the environmental context along with the current
+                        state of the user. By providing effective feedbacks and relevant information along with
+                        intuitive interaction techniques, Immersive Training system makes the learning process more
+                        <span class="font-weight-bold">fun,
+                            engaging, and useful</span>.
                     </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Analysis -->
-    <!-- Start Development Phase -->
-    <section class="section" id="development">
+    <!-- Start Designing Solutions -->
+    <section class="section" id="designing">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center">
-                        <h3><span class="font-weight-bold">Development Phase</span></h3>
+                        <h3><span class="font-weight-bold">Designing Solutions</span></h3>
                         <div class="vr_line mx-auto d-block"></div>
                         <!-- End About  <p class="sec_subtitle mx-auto text-muted pt-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
                     </div>
@@ -297,137 +266,219 @@
             </div>
             <div class="row mt-5 vertical-content">
                 <div class="col-lg-6">
-                    <div class=" mt-3">
-                        <img src="../images/portfolio/magsi/hardware-setup-diagram.png" alt="hardware setup image"
-                            class="img-fluid mx-auto d-block position-relative">
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/immtrain/handsketches.jpg" height="550px"
+                            alt="Hand drawn sketches" class="mx-auto d-block position-relative">
+                        <figcaption>Hand drawn ideation sketches</figcaption>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about_content mt-3">
-                        <h4 class="mb-3">Hardware Setup</span></h4>
-                        <p class="text-muted mt-3 justify-content-around">At the beginning of the development phase, we
-                            defined the main hardware components that would be essential.</p>
-                        <span data-toggle="counter-up" class="text-muted"><strong>Labeling</strong></span>
+                        <h4 class="mb-3">Sketching</span></h4>
+                        <p class="text-muted mt-3 justify-content-around">Intially we individually sketched out multiple
+                            ideas. Afterwards, we collaborated our ideas into forming 3 main scenarios for the
+                            storyboard. These scenarios are discussed in the upcoming section.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_content mt-3">
+                        <h4 class="mb-3">Storyboarding - <span><i>User Flows</i> </span></h4>
+                        <p class="text-muted mt-3 justify-content-around">The three goals defined during the requirement
+                            analysis phase of the project helped us to translate them into three scenarios. The
+                            storyboards for these scenarios helped us to visualize how the system would behave under
+                            varying contexts.</p>
                         <ol class="text-muted">
-                            <li>Bowl</li>
-                            <li>Scale</li>
-                            <li>Photoresistors</li>
-                            <li>Buttons</li>
-                            <li>Stepper motor</li>
-                            <li>Bridge</li>
-                            <li>Raspberry Pi</li>
-                            <li>Display screen</li>
+                            <li>Idea generation: Individually</li>
+                            <li>Capturing ideas: Sketching</li>
+                            <li>Critiquing: Evaluate each other's ideas and proposals</li>
+                            <li>Synthesis: Analyze inputs from team members</li>
                         </ol>
-                    </div>
-                </div><br>
-                <div class="col-lg-6">
-                    <div class="about_content mt-3">
-                        <h4 class="mb-3">Wiring Diagram</h4>
-                        <p class="text-muted mt-3 justify-content-around">We analyzed the initial hardware concept for
-                            any potential flaws and then designed a detailed wiring diagram. This was necessary so as to
-                            decide the physical architecture of the MAGSI along with hardware placement measurements.
-                        </p>
-                    </div>
-                </div><br>
-                <div class="col-lg-6 subsection">
-                    <div class=" mt-3">
-                        <img src="../images/portfolio/magsi/wiring-diagram.png" alt="hardware setup image"
-                            class="img-fluid mx-auto d-block position-relative">
+                        <p class="text-muted mt-3 justify-content-around">The image shows the legend used for the
+                            storyboard. The legend will help the reader to understand the relevant parts of the scenario
+                            in the upcoming storyboards.</p>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/immtrain/storybiard-legend.jpg" alt="Legend for Storyboard"
+                            class="mx-auto d-block position-relative">
+                        <figcaption>Storyboard legend</figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="about_content mt-3 text-center subsection">
+                        <hr />
+                        <h4 class="mb-3">Scenario 1: Interactive Exploration</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="text-muted">
+                        <li>Interacting with the 3D Virtual model</li>
+                        <li>Learning more about the valve elements</li>
+                        <li>Get to know about associated tools</li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/immtrain/scenario-1-storyboard.png"
+                            alt="Storyboard for first scenario" class="img-fluid mx-auto d-block position-relative">
+                        <figcaption>Storyboard for the first scenario</figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="about_content mt-3 text-center subsection">
+                        <hr />
+                        <h4 class="mb-3">Scenario 2: Disassmebly and Assembly</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="text-muted">
+                        <li>Learn the techniques</li>
+                        <li>Follow augmented instructions</li>
+                        <li>Navigate using voice commands</li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/immtrain/scenario-2-storyboard.jpg"
+                            alt="Storyboard for the second scenario"
+                            class="img-fluid mx-auto d-block position-relative">
+                        <figcaption>Storyboard for the second scenario</figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="about_content mt-3 text-center subsection">
+                        <hr />
+                        <h4 class="mb-3">Scenario 3: Maintenance</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="text-muted">
+                        <li>Follow disassembly instructions</li>
+                        <li>Get meta data about any part's statuses</li>
+                        <li>On-demand information for replacement procedure</li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/immtrain/scenario-3-storyboard.jpg"
+                            alt="Storyboard for the third scenario" class="img-fluid mx-auto d-block position-relative">
+                        <figcaption>Storyboard for the third scenario</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Designing Solutions-->
+    <!-- Start Development -->
+    <section class="section" id="development">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center">
+                        <h3><span class="font-weight-bold">Development of Prototype</h3>
+                        <div class="vr_line mx-auto d-block"></div>
+                        <!-- End About  <p class="sec_subtitle mx-auto text-muted pt-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 vertical-content">
                 <div class="col-lg-8">
+                    <h4>The futuristic AR experience</h4>
+                    <p class="text-muted mt-3 justify-content-around">In this section we discussed briefly details from
+                        some of the code modules. This section will provide a basic idea of how things were realised for
+                        the final prototype. The hardware used is a Meta2 AR glasses ad an external microphone. The
+                        development platform used was Unity 2018.1.8.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_content mt-3 subsection">
+                        <h4 class="mb-3">Marker detection using Vuforia</h4>
+                        <p class="text-muted mt-3 justify-content-around">We planned to add object recognition
+                            feature to our system, to localize the target object in the real world and map the virtual
+                            elements on it. This was made possible by the SDK provided by Vuforia technologies. It uses
+                            computer vision technology to recognize and track planar images (Image
+                            Targets) and 3D objects in real time. To mimic the object recognition feature, we
+                            instantiate the 3D model of the valve at the location of the printed marker.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 subsection">
+                    <div class=" mt-3">
+                        <img src="../images/portfolio/immtrain/marker-recognition.PNG"
+                            alt="Marker recognition snapshhot from Unity3D"
+                            class="img-fluid mx-auto d-block position-relative">
+                        <figcaption>3D model instantiated on top of the marker using Vuforia (Unity 2018.1.8)
+                        </figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-6 subsection">
+                    <div class=" mt-3">
+                        <img src="../images/portfolio/immtrain/MetaCanvas.PNG" height="500px"
+                            alt="Meta canvas interaction trigger and lin renderer"
+                            class="mx-auto d-block position-relative">
+                        <figcaption>Meta canvas interaction area and link to main 3D valve gameobject</figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_content mt-3">
+                        <h4 class="mb-3">Canvas and Links</h4>
+                        <p class="text-muted mt-3 justify-content-around">For our first scenario we needed the user to
+                            see names of the parts of the engine valve. These names had to be linked appropiately to the
+                            associated location on the main valve. To achieve this we provided visual linking by
+                            dynamically rendering lines from the labels to parts locations. Some of the parts of the
+                            vvalve were enclosed in the casing of the valve, hence we coded an X-Ray feature which
+                            allowed the user to see what's inside the casing. This feature can seen in the demo video of
+                            the project.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_content mt-3 subsection">
+                        <h4 class="mb-3">Sia - The Personal Virtual Assistant</h4>
+                        <p class="text-muted mt-3 justify-content-around">For the first scenario, air touch interaction
+                            was sufficient for the user. However, as we moved forward to the other two scenarios, we
+                            realised that the user is usually pre-occupied with the task at hand. To redue the friciton
+                            caused by the interaction technique, we introduced a new modality - speech.
+                        </p>
+                        <p class="text-muted mt-3 justify-content-around">Using the Microsoft Windows speech library,the
+                            system was now able to respond user inputs fed through an external microphone. The system's
+                            virtual assistant is called 'Sia' and the user can trigger it using its name as a keyword.
+                        </p>
+                    </div>
+                </div><br>
+                <div class="col-lg-6">
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/immtrain/Sia-intro.png" alt="Sia voice assistant"
+                            class="img-fluid mx-auto d-block position-relative">
+                        <figcaption>Sia - The personal virtual assistant</figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/immtrain/TextInstructions.png"
+                            alt="Text instructions for the user" class="img-fluid mx-auto d-block position-relative">
+                        <figcaption>Text instructions for the user</figcaption>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about_content mt-3">
+                        <h4 class="mb-3">Visual Instructions</h4>
+                        <p class="text-muted mt-3 justify-content-around">Now we wanted the user to know what all he can
+                            achieve with our Immersive Training system. Hence, we added a tag-along canvas in the user's
+                            field of view which showed the possible commands that user can give at any given time.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
                     <hr />
-                    <h4>The Three Main Modules</h4>
-                    <p class="text-muted mt-3 justify-content-around">As a team of three, we decided to segment
-                        MAGSI's architecture into three major modules:
-                    </p>
-                    <ol class="text-muted">
-                        <li>Hardware interfacing (using Python)</li>
-                        <li>Visualization (user interface using HTML5, CSS3, Javascript)</li>
-                        <li>System hardware design (physical product)</li>
-                    </ol>
-                    <p class="text-muted mt-3 justify-content-around">I was responsible for the visualization
-                        module, although we all worked towards with interchanging responsibilities towards the final
-                        goal.
-                    </p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about_content mt-3">
-                        <h4 class="mb-3">Digital Data Flow</h4>
-                        <p class="text-muted mt-3 justify-content-around">The first two modules (Hardware
-                            interfacing and Visualization) has to work in sync with each other. The common data
-                            sharing point for these modules was a JSON file stored locally on Raspberry Pi.
-                        </p>
-                    </div>
-                </div><br>
-                <div class="col-lg-6 subsection">
-                    <div class=" mt-3">
-                        <img src="../images/portfolio/magsi/digital-data-flow.png" alt="hardware setup image"
+                    <div class="mt-3 subsection">
+                        <img src="../images/portfolio/muk/muk-ecosystem.png" alt="muk ecosystem"
                             class="img-fluid mx-auto d-block position-relative">
+                        <figcaption>MUK Ecosystem</figcaption>
                     </div>
+
                 </div>
-                <div class="col-lg-6 subsection">
-                    <div class=" mt-3">
-                        <img src="../images/portfolio/magsi/paper-prototype.png" alt="hardware setup image"
-                            class="img-fluid mx-auto d-block position-relative">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about_content mt-3">
-                        <h4 class="mb-3">Physical Prototype</h4>
-                        <p class="text-muted mt-3 justify-content-around">We created a low-fidelity paper prototype
-                            (1:1 scale) so as to gauge any anomalies related to hardware calculations. This helped
-                            us to evaluate the design before finalizing dimensions for the product design.
-                        </p>
-                        <span data-toggle="counter-up" class="text-muted"><strong>Labeling</strong></span>
-                        <ol class="text-muted">
-                            <li>DUPLO block container</li>
-                            <li>Opening for the block(s) being dispensed</li>
-                            <li>Tangibles</li>
-                            <li>Control panel</li>
-                            <li>Buttons</li>
-                            <li>Building site for DUPLO structure</li>
-                            <li>DUPLO structure</li>
-                        </ol>
-                    </div>
-                </div><br>
-                <div class="col-lg-6">
-                    <div class="about_content mt-3">
-                        <h4 class="mb-3">3D Printing</h4>
-                        <p class="text-muted mt-3 justify-content-around">We designed and 3D printed a lot of
-                            hardware components so as to quickly realize the design concept.
-                        </p>
-                        <ol class="text-muted">
-                            <li>Gear - for pushing the blocks out of the chamber</li>
-                            <li>RFID tag casing - So as to create an abstraction</li>
-                            <li>Tangibles - To help the users identify themselves to the system using a tangible
-                                interface</li>
-                        </ol>
-                    </div>
-                </div><br>
-                <div class="col-lg-6 subsection">
-                    <div class="mt-3">
-                        <img src="../images/portfolio/magsi/3d-printing.png" alt="hardware setup image"
-                            class="img-fluid mx-auto d-block position-relative">
-                    </div>
-                </div>
-                <div class="col-lg-6 subsection">
-                    <div class="mt-3 embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MGyrV-GejQw"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about_content mt-3">
-                        <h4 class="mb-3">Demo Video</h4>
-                        <p class="text-muted mt-3 justify-content-around">The final product was successfully
-                            implemented as a proof of concept. Various other details related to the working of MAGSI
-                            can be seen in the video.
-                        </p>
-                    </div>
-                </div><br>
             </div>
         </div>
     </section>
@@ -443,24 +494,16 @@
                     </div>
                     <div class="row mt-5 vertical-content">
                         <div class="col-lg-8">
-                            <p class="mx-auto text-muted text-lg-left">Initially while defining the scope of the system,
-                                it
-                                seemed as if the solution can be developed quite quickly. But along the way, we realized
-                                that
-                                there are lots of intricate details that need to be addressed so as to provide a smooth
-                                experience to the user.</p>
-                            <p class="mx-auto text-muted text-lg-left">One of the major challenges was to develop a
-                                light-weight visualisation module which can respond to hardware change events in
-                                real-time. I used web-technologies (HTML5, CSS3, and jQuery) for it. Since the system
-                                was running on Raspberry Pi, we had to make the visualizations attractive enough without
-                                compromising performance. I learned that CSS3 in itself is a quite powerful technology
-                                for implementing animations.</p>
-                            <p class="mx-auto text-muted text-lg-left">Before working on this project, I used to
-                                associate user experience with just the design part of it. However,
-                                this project made me realize that the development process is as crucial as the design
-                                process in defining a good UX. Writing an efficient and optimized code can greatly
-                                impact the response time for the system user, which in turn enhances the overall
-                                experience.</p>
+                            <p class="mx-auto text-muted text-lg-left">From exploring various data elicitation methods
+                                to taking a solution approach apart from designing just a smartphone app, I learned a
+                                lot.
+                                The biggest fear was to get the user requirements correctly. The answer lies in not only
+                                listening to what the user says but also observing what they do. I understood what it
+                                takes to successfully design a digital ecosystem around an already existing
+                                infrastructure. It's a fruitful practice to follow UX design lifecycle process at every
+                                checkpoint of the product development. Evaluating intermediate designs potentially saves
+                                a lot of time by providing a realistic idea of whether the finished product will solve
+                                the problem in reality or not.</p>
                         </div>
                     </div>
                 </div>
